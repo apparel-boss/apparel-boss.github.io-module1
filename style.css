@@ -3,14 +3,8 @@ section{
   text-align: center;
   background-color: #000000
 
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
+@media (max-width: 440px) {
+  section{
+    padding: 20px;
   }
 }
