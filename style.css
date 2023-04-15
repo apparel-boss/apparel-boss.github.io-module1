@@ -25,7 +25,8 @@ section{
   text-align: center;
 }    
     body {
- background-image: url("https://i.ibb.co/k9Sc4Kb/Screen-Shot-2023-04-13-at-9-50-16-AM.png");
+ background-image: url("https://i.ibb.co/k9Sc4Kb/Screen-Shot-2023-04-13-at-9-50-16-AM.png") no-repeat center fixed;
+      background-size: cover;
 }
 
 @media (max-width: 440px) {
